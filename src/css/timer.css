@@ -1,0 +1,55 @@
+.wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+ input {
+  width: 250px;
+  height: 40px;
+  padding: 10px 5px;
+  margin-right: 10px;
+  text-align: center;
+  border: 2px solid #0000008a;
+  border-radius: 3px;
+  font-size: 25px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 40px;
+  font-size: 25px;
+  border-radius: 3px;
+}  
+
+
+.timer {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100px;
+  padding: 10px 0 10px 0;
+  margin-right: 30px;
+  border: 2px solid #0000008a;
+  border-radius: 3px;
+}
+
+.field:last-child {
+  margin-right: 0;
+}
+
+.value {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.label {
+  color: #0000008a;
+}
