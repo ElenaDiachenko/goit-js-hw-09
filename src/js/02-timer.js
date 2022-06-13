@@ -14,7 +14,6 @@ let leftTime = null;
 
 
 refs.startBtn.addEventListener('click', () => timer.start());
-// refs.startBtn.disabled = true;
 
 const options = {
   enableTime: true,
