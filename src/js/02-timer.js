@@ -27,7 +27,7 @@ const options = {
         return;
       }
       leftTime = selectedDates[0];
-      refs.startBtn.disabled = false;
+    refs.startBtn.disabled = false;
   },
 };
 
@@ -46,7 +46,8 @@ class CounDownTimer {
     const deltaTime = leftTime - currentTime;
     const componentsTimer = this.convertMs(deltaTime);
     this.onUpdate(componentsTimer);
-    refs.startBtn.disabled = true;
+     refs.startBtn.disabled = true;
+      refs.inputDate.disabled = true;
     }, 1000);
     }
   convertMs(ms) {
